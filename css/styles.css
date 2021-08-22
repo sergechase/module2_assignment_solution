@@ -1,0 +1,89 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	padding: 20px 30px;
+	font-family: Verdana, sans-serif;
+}
+
+div{
+	background: #076590 ;
+	color: #F8F8F8 ;
+}
+
+.col-lg-4 section, .col-lg-8 section,.col-lg-12 section{
+	padding: 5px 8px;
+}
+.head, h1{
+	font-family: "Comic Sans MS", "Comic Sans", "cursive";
+}
+
+h1{
+	text-align: center;
+	font-size: 175%;
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+.col-lg-4, .col-lg-8, .col-lg-12{
+	border-width: 3px;
+	border-style: solid;
+	border-color: black;
+	margin-right: 1.5%;
+	margin-left: 1.5%;
+	margin-bottom: 20px;
+}
+section{
+	clear: both;
+}
+.head1, .head2, .head3{
+	color: black;
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	border-style: solid;
+	border-color: black;
+	border-width: 3px;
+	font-size: 125%;
+	float: right;
+	overflow: hidden;
+	line-height: 0.1;
+}
+.head1{
+	background: #E5B6BA;
+}
+.head2{
+	background: #E886A3;
+}
+.head3{
+	background: #EA4A7A;
+}
+
+@media (min-width:992px){
+	.col-lg-4,.col-lg-8,.col-lg-12{
+		float: left;
+		width: 30%;
+	}
+}
+
+@media (min-width: 768px) and (max-width:991px) {
+	.col-lg-4{
+		width: 45%;
+		float: left;
+	}
+	.col-lg-8{
+		width: 45%;
+		float: left;
+	}
+	.col-lg-12{
+		clear: left;
+		width: 93%;
+	}
+}
+
+@media(max-width:767px){
+	.col-lg-4,.col-lg-12, .col-lg-8{
+		width: 97%;
+		clear: both;
+	}
+}
