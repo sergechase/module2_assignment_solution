@@ -47,6 +47,7 @@ section{
 	font-size: 125%;
 	float: right;
 	overflow: hidden;
+	inline-height:0.1
 }
 .head1{
 	background: #E5B6BA;
